@@ -1,5 +1,6 @@
 # Operating system switch
  This is a project that can help you automatically switch the operating system on your personal computer. With it, you can quickly switch between Windows and Linux during the use of the computer, without using the mouse and keyboard.
+ (中文简介在项目文件夹中)
 
 ## Get a  hardware
 - This project provides a switch model file, and the physical effect of the model is shown in the figure below，and the design files and bill of materials for the switch are placed in the hardware folder.
