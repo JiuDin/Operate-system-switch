@@ -4,19 +4,14 @@
 ## Get a  hardware
 - This project provides a switch model file, and the physical effect of the model is shown in the figure below，and the design files and bill of materials for the switch are placed in the hardware folder.
 <figure class="Three">
-    <img src="./pictures/switch_01.jpg" width=200/>
-    <img src="./pictures/switch_02.jpg"width=280/>
-    <img src="./pictures/switch_03.jpg"width=100/>
+    <img src="./pictures/switch_01.jpg" width=200/><img src="./pictures/switch_02.jpg"width=280/><img src="./pictures/switch_03.jpg"width=100/>
 </figure>
 
 
 -  An easier way to obtain hardware is to buy a minimal system board online, connect it to a mechanical switch through a cable, and then connect the system board to the computer through a USB cable.
 
 <figure class="four">
-    <img src="./pictures/MinimumSystemDevelopmentBoard.jpg" width=150/>
-    <img src="./pictures/toggle_switch.jpg"width=150/>
-    <img src="./pictures/cable.jpg"width=150/>
-    <img src="./pictures/usb.jpeg"width=150/>
+    <img src="./pictures/MinimumSystemDevelopmentBoard.jpg" width=150/> <img src="./pictures/toggle_switch.jpg"width=150/><img src="./pictures/cable.jpg"width=150/><img src="./pictures/usb.jpeg"width=150/>
 </figure>
 
 ## Building firmware with stm32f1xx
@@ -81,3 +76,17 @@ In other system,
   <img src="./pictures/startup.png"  > 
 
 ### On Windows
+- To run a python script, you need `python` `psutil` `StringIO`etc. 
+
+- Copy the directory `os_switch_windows` to C disk root directory.
+
+<img src="./pictures/win_script.png"  > 
+
+- Create a shortcut of `os_switch.vbs`
+- Move the shortcut to the Startup directory
+ 
+   - run `Windows+R ` and input `shell:startup` to the windows
+
+   - copy the shortcut to the startup directory
+
+   <img src="./pictures/start_win.png"  > 
