@@ -1,0 +1,25 @@
+#!/bin/bash
+
+while((1))
+do 
+
+    #echo "Find usb disk......."
+    if [ -b /dev/disk/by-uuid/55AA-6922 ] 
+    then
+        #echo "usb disk is ok" 
+        source /media/${USER}/SWITCH/switch_position_grub.cfg
+        if [ "${os_hw_switch}" == 1 ] ; then
+           # Boot Windows
+          #echo "set default=2"
+          reboot
+        fi
+    #else
+        #echo "usb disk is error" 
+    fi
+    sleep 2s
+    
+    
+
+done
+
+
