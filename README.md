@@ -8,7 +8,7 @@
 </figure>
 
 
--  An easier way to obtain hardware is to buy a minimal system board online, connect it to a mechanical switch through a cable, and then connect the system board to the computer through a USB cable.
+-  An easier way to obtain hardware is to buy a minimal system board online, connect PA6 to a mechanical switch through a cable, and then connect the system board to the computer through a USB cable.
 
 <figure class="four">
     <img src="./pictures/MinimumSystemDevelopmentBoard.jpg" width=150/> <img src="./pictures/toggle_switch.jpg"width=150/><img src="./pictures/cable.jpg"width=150/><img src="./pictures/usb.jpeg"width=150/>
@@ -18,7 +18,7 @@
 
 
 ### Firmware of  'operating system switch'
-Thanks for stecman, the firmware of hardware are refer from his work "hw-boot-selection".
+Thanks for stecman, the firmware of hardware are refer from his work "hw-boot-selection". The project address is https://github.com/stecman/hw-boot-selection.git
 
 - **(Required)**  On Linux, you'll need `gcc-arm-none-eabi` and `python` installed to build and `openocd` to flash. Such as this:
     ```
@@ -28,7 +28,7 @@ Thanks for stecman, the firmware of hardware are refer from his work "hw-boot-se
 
 - **(Optional)** You can update the library  named libopencm3, or just use the version in the directory. The details you can reference with stecman's project. And you only need to replace the 'src' directory.
 
-- **(Required)** You can use follow command to build and flash the firmware,  before you do that, make sure you have a jlink or stlink to connect the device with your computer. 
+- **(Required)** You can use following command to build and flash the firmware,  before you do that, make sure you have a jlink or stlink to connect the device with your computer. 
 
 ### Building
 
